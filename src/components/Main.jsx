@@ -13,7 +13,7 @@ const Main = () => {
               <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>I'm Kedar Mane</h1>
               <div className='flex flex-col items-center lg:flex-row lg:items-center'>
                 {/* <img className='w-32 h-32 rounded-full absolute top-4 right-4 lg:top-8 lg:right-8' src="WhatsApp Image 2024-08-02 at 10.22.14 PM.jpeg" alt="Kedar Mane" /> */}
-                <img className='w-40 h-40 rounded-full absolute top-10 right-50 lg:top-20 lg:right-100' src="WhatsApp Image 2024-08-02 at 10.22.14 PM.jpeg" alt="Kedar Mane" />
+                <img className='w-32 h-32 rounded-full absolute top-10 right-50 lg:top-20 lg:right-100' src="WhatsApp Image 2024-08-02 at 10.22.14 PM.jpeg" alt="Kedar Mane" />
               <h2 className='flex sm:text-3xl text-2xl pt-4 text-gray-800'>
                 I'm a
                 <TypeAnimation

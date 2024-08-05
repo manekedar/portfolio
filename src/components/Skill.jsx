@@ -3,12 +3,13 @@ import { FaJava, FaDatabase, FaHtml5, FaCss3Alt, FaJs, FaReact } from 'react-ico
 import { SiSpringboot, SiMongodb } from 'react-icons/si';
 
 const skills = [
+
+  { name: 'React JS', icon: FaReact },
+  { name: 'JavaScript', icon: FaJs },
+  { name: 'HTML/CSS', icon: FaHtml5 },  // Using FaHtml5 for HTML/CSS, you can adjust if needed
+  { name: 'MySQL/MongoDB', icon: FaDatabase },
   { name: 'Java SE/Java EE', icon: FaJava },
   { name: 'Spring Boot', icon: SiSpringboot },
-  { name: 'MySQL/MongoDB', icon: FaDatabase },
-  { name: 'HTML/CSS', icon: FaHtml5 },  // Using FaHtml5 for HTML/CSS, you can adjust if needed
-  { name: 'JavaScript', icon: FaJs },
-  { name: 'React JS', icon: FaReact }
 ];
 
 const Skill = () => {
