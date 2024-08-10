@@ -5,3 +5,11 @@
 * {
     scroll-behavior: smooth;
 }
+
+@layer base {
+    .dark {
+      --tw-bg-opacity: 1;
+      background-color: rgba(31, 41, 55, var(--tw-bg-opacity)); /* Example for dark background */
+      color: rgba(255, 255, 255, var(--tw-text-opacity)); /* Example for dark text */
+    }
+  }

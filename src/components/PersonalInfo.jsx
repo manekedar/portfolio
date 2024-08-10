@@ -17,13 +17,13 @@ const personalInfo = [
 const PersonalInfo = () => {
   return (
     <div id='personal-info' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-      <h1 className='py-4 text-4xl font-bold text-center text-[#001b5e]'>Personal Information</h1>
+      <h1 className='py-4 text-4xl font-bold text-center text-[#001b5e] dark:text-white'>Personal Information</h1>
       <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
         {personalInfo.map((info, index) => (
           <div key={index} className='flex items-center text-lg text-gray-700 border-2 rounded-lg p-3 border-gray-300'>
             <info.icon className='text-orange-500 mr-3' size={24} />
-            <span className='font-semibold'>{info.label}: </span>
-            <span className='ml-2'>{info.value}</span>
+            <span className='font-semibold dark:text-white'>{info.label}: </span>
+            <span className='ml-2 dark:text-white'>{info.value}</span>
           </div>
         ))}
       </div>

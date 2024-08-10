@@ -43,7 +43,7 @@ const data = [
 const Qualification = () => {
     return (
         <div id='qualification' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-            <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Qualifications</h1>
+            <h1 className='text-4xl font-bold text-center text-[#001b5e] dark:text-white'>Qualifications</h1>
             <div className="overflow-x-auto mt-8 shadow-lg rounded-lg">
                 <table className="min-w-full bg-white border border-gray-300">
                     <thead>

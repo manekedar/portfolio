@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { AiOutlineMenu, AiOutlineHome, AiOutlineProject, AiOutlineMail, AiOutlineBook } from "react-icons/ai";
 import { GrProjects } from "react-icons/gr";
-import { BsPerson } from "react-icons/bs";
 import { FaTools, FaIdCard } from "react-icons/fa";
 
 const Sidenav = () => {
@@ -34,11 +33,7 @@ const Sidenav = () => {
                         <span className='pl-4'>Projects</span>
                     </a>
 
-                    <a onClick={handleNav}
-                       href='#main' className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
-                        <BsPerson size={20}/>
-                        <span className='pl-4'>Resume</span>
-                    </a>
+                   
 
                     <a onClick={handleNav}
                        href='#qualification' className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
@@ -68,8 +63,8 @@ const Sidenav = () => {
                 ''
             )}
             <div className='md:block hidden fixed top-[25%] z-10'>
-                <div className='md:flex flex-col fixed left-0 top-5 w-20 h-full z-10 overflow-y-auto'>
-                    <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                <div className='md:flex flex-col fixed left-0 top-5 w-20 h-full z-10 overflow-y-auto mt-8'>
+                    <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 mt-8'>
                         <AiOutlineHome size={20}/>
                     </a>
 
@@ -81,9 +76,7 @@ const Sidenav = () => {
                         <AiOutlineProject size={20}/>
                     </a>
 
-                    <a href='#main' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsPerson size={20}/>
-                    </a>
+                  
 
                     <a href='#qualification' className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlineBook size={20}/>
