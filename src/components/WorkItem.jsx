@@ -17,3 +17,37 @@ const WorkItem = ({ year, title, duration, details }) => {
 }
 
 export default WorkItem
+
+// import React from 'react'
+
+// const WorkItem = ({ number, year, title, duration, details }) => {
+//   return (
+//     <ol className='flex flex-col md:flex-row relative border-l-4 border-stone-200 pl-8'>
+//       <li className='mb-10 ml-4 relative'>
+//         {/* Number Indicator */}
+//         <div className='absolute left-[-4rem] top-1 flex items-center justify-center w-8 h-8 text-white font-bold bg-[#001b5e] rounded-full dark:bg-white dark:text-[#001b5e] border-2 border-[#001b5e]'>
+//           {number}
+//         </div>
+//         {/* Work Item Details */}
+//         <div className=''>
+//           <p className='flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm'>
+//             <span className='inline-block px-2 py-1 font-semibold text-white bg-[#001b5e] rounded-md dark:text-white'>
+//               {year}
+//             </span>
+//             <span className='text-lg font-semibold text-[#001b5e] dark:text-white'>
+//               {title}
+//             </span>
+//             <span className='my-1 text-sm font-normal leading-none text-stone-400 dark:text-white'>
+//               {duration}
+//             </span>
+//           </p>
+//           <p className='my-2 text-base font-normal text-stone-500 dark:text-white'>
+//             {details}
+//           </p>
+//         </div>
+//       </li>
+//     </ol>
+//   )
+// }
+
+// export default WorkItem
